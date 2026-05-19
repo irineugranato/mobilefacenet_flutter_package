@@ -1,0 +1,17 @@
+name: mobilefacenet_flutter_package
+description: Package Flutter para embutir e carregar o modelo MobileFaceNet TFLite como asset.
+version: 0.0.1
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.10.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  tflite_flutter: ^0.11.0
+
+flutter:
+  assets:
+    - assets/models/mobilefacenet.tflite
